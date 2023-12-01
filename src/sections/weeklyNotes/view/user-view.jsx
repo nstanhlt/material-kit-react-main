@@ -44,7 +44,7 @@ function MyComponent() {
       (async function run() {
         try {
           if (noteExits) {
-            const response = await noteServices.edit(noteExits.id, noteExits.noiDung);
+            const response = await noteServices.edit(noteExits.id, value);
           } else {
             const response = await noteServices.create(value);
           }
