@@ -19,6 +19,13 @@ const navConfig = [
   },
 
   {
+    title: 'Notes',
+    path: '/notes',
+    icon: icon('ic_cart'),
+  },
+
+
+  {
     title: 'Week',
     path: '/Week',
     icon: icon('ic_cart'),

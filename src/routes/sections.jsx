@@ -7,6 +7,10 @@ export const IndexPage = lazy(() => import('src/pages/app'));
 export const BlogPage = lazy(() => import('src/pages/blog'));
 export const UserPage = lazy(() => import('src/pages/user'));
 
+
+
+export const NotePage = lazy(() => import('src/pages/notes'));
+
 export const WeekPage = lazy(() => import('src/pages/week'));
 export const WeeklyNotes = lazy(() => import('src/pages/weeklyNotes'));
 
@@ -28,7 +32,11 @@ export default function Router() {
       ),
       children: [
         { element: <IndexPage />, index: true },
+        
         { path: 'user', element: <UserPage /> },
+
+        { path: 'notes', element: <NotePage /> },
+
         { path: 'Week', element: <WeekPage /> },
         { path: 'WeeklyNotes', element: <WeeklyNotes /> },
         { path: 'products', element: <ProductsPage /> },
