@@ -116,16 +116,16 @@ const App = () => {
         </Col>
       </Row>
       <Row gutter={5}>
-        <Col span={4}>
+        <Col span={24}>
+          <Card>
+            <Calendar cellRender={cellRender} />
+          </Card>
+        </Col>
+        <Col span={24}>
           <Card>
             <Descriptions title="Note">
               <Descriptions.Item>Coding</Descriptions.Item>
             </Descriptions>
-          </Card>
-        </Col>
-        <Col span={20}>
-          <Card>
-            <Calendar cellRender={cellRender} />
           </Card>
         </Col>
       </Row>

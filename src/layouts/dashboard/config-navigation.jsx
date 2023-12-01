@@ -17,6 +17,11 @@ const navConfig = [
     path: '/user',
     icon: icon('ic_user'),
   },
+  {
+    title: 'Create Notes',
+    path: '/WeeklyNotes',
+    icon: icon('ic_cart'),
+  },
 
   {
     title: 'Notes',
@@ -24,15 +29,9 @@ const navConfig = [
     icon: icon('ic_cart'),
   },
 
-
   {
-    title: 'Week',
+    title: 'Month',
     path: '/Week',
-    icon: icon('ic_cart'),
-  },
-  {
-    title: 'WeeklyNotes',
-    path: '/WeeklyNotes',
     icon: icon('ic_cart'),
   },
 

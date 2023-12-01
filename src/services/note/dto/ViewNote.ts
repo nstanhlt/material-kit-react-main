@@ -1,5 +1,5 @@
 export interface ViewNote {
-    id: string;
+    id: number;
     noiDung?: string;
     thoiGianTao?: string;
     nguoiTao?: number;
